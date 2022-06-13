@@ -50,21 +50,22 @@ section {
 /*WELCOME*/
 #welcome {
   height: 500px;
-  background-image: url("assets/fondYunsef1.jpg");
+  background-image: url("assets/yunBack1.png");
   background-size: contain;
   animation-name: colchis;
   animation-duration: 10s;
   animation-iteration-count: infinite;
 }
+
 @keyframes colchis {
   0% {
-    background-image: url("assets/fondYunsef1.jpg");
+    background-image: url("assets/yunBack1.png");
   }
   30% {
-    background-image: url("assets/fondYunsef2.jpg");
+    background-image: url("assets/yunBack2.png");
   }
   60% {
-    background-image: url("assets/fondYunsef3.jpg");
+    background-image: url("assets/yunBack3.png");
   }
 }
 
@@ -84,7 +85,7 @@ h2 {
 
 #welcomeText a {
   text-decoration: none;
-  color: darkblue;
+  color: black;
 }
 #welcomeText a:hover {
   color: gold;
@@ -112,7 +113,17 @@ th,
 td {
   font-size: 25px;
 }
-
+/*cqui*/
+#yunBio p{
+    font-size: 20px;
+}
+#yunBio a {
+    text-decoration: none;
+    color: black;
+}
+#yunBio a:hover {
+    color: gold;
+}
 /*FORM*/
 
 div {
